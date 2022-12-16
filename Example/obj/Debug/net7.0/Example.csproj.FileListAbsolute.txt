@@ -1,0 +1,15 @@
+/Users/graphite/projects/Example/Example/bin/Debug/net7.0/Example
+/Users/graphite/projects/Example/Example/bin/Debug/net7.0/Example.deps.json
+/Users/graphite/projects/Example/Example/bin/Debug/net7.0/Example.runtimeconfig.json
+/Users/graphite/projects/Example/Example/bin/Debug/net7.0/Example.dll
+/Users/graphite/projects/Example/Example/bin/Debug/net7.0/Example.pdb
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/Example.csproj.AssemblyReference.cache
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/Example.GeneratedMSBuildEditorConfig.editorconfig
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/Example.AssemblyInfoInputs.cache
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/Example.AssemblyInfo.cs
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/Example.csproj.CoreCompileInputs.cache
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/Example.dll
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/refint/Example.dll
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/Example.pdb
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/Example.genruntimeconfig.cache
+/Users/graphite/projects/Example/Example/obj/Debug/net7.0/ref/Example.dll
