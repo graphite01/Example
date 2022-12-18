@@ -6,11 +6,14 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int answer; //計算結果を代入する変数
+            // 変数の初期化
+            int money = 15000; // 現在の所持金
+            int salary = 1000; // 時給
+            int hour = 5; // 働いた時間
 
-            // 30を7で割った時の余りを求めて表示
-            answer = 30 % 7;
-            Console.WriteLine(answer);
+            // 現在の所持金の合計を計算して表示
+            int sum = money + salary * hour;
+            Console.WriteLine(sum);
         }
     }
 }
