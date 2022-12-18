@@ -6,11 +6,11 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int sum; //計算結果を代入する変数
+            int answer; //計算結果を代入する変数
 
-            // 1~5までの和を求めて表示
-            sum = 1 + 2 + 3 + 4 + 5;
-            Console.WriteLine(sum);
+            // 30を7で割った時の余りを求めて表示
+            answer = 30 % 7;
+            Console.WriteLine(answer);
         }
     }
 }
