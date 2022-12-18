@@ -6,14 +6,13 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            // 変数の初期化
-            int money = 5000; // 現在の所持金
-            int salary = 800; // 時給
-            int hour = 2; // 働いた時間
+            int math = 80; // 数学の点数
+            int english = 66; // 英語の点数
+            int history = 95; // 歴史の点数
 
-            // 現在の所持金の合計を計算して表示
-            int sum = money + salary * hour;
-            Console.WriteLine(sum);
+            // 平均値を計算して表示
+            float average = (math + english + history) / 3.0f;
+            Console.WriteLine("平均は" + average + "点");
         }
     }
 }
