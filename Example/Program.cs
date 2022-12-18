@@ -8,8 +8,8 @@ namespace Example
         {
             int life = 1;
 
-            // ライフを「3」だけ増やす
-            life += 3;
+            // ライフを「1」だけ増やす
+            life++;
             Console.WriteLine(life);
         }
     }
