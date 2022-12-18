@@ -6,11 +6,18 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int life = 1;
+            int a;
+            // 変数aに「10」を代入する
+            a = 10;
 
-            // ライフを「1」だけ増やす
-            life++;
-            Console.WriteLine(life);
+            // 2回デクリメントして結果を表示する
+            a--;
+            a--;
+            Console.WriteLine(a);
+
+            // 「/＝」演算子を使って「4」で割り、結果を表示する
+            a /= 4;
+            Console.WriteLine(a);
         }
     }
 }
