@@ -12,7 +12,7 @@ namespace Example
             int hour = 5; // 働いた時間
 
             // 現在の所持金の合計を計算して表示
-            int sum = money + salary * hour;
+            int sum = money + (salary + 150) * hour;
             Console.WriteLine(sum);
         }
     }
