@@ -6,7 +6,7 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int playerPosX = 5; // プレイヤの位置は「X=5」
+            int playerPosX = 10; // プレイヤの位置は「X=5」
             int enemyPosX = 10; // 敵の位置は「X=10」
 
             // プレイヤと敵の位置が等しい場合は敵と遭遇
