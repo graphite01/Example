@@ -6,7 +6,7 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int playerPosY = 3;
+            int playerPosY = -5;
 
             // プレイヤが地上(高さ0以上の位置)にいる場合は走る
             // そうでなければ水中にいると見なして泳ぐ
