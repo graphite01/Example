@@ -6,17 +6,17 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int playerPosY = -5;
+            int num = 3;
 
-            // プレイヤが地上(高さ0以上の位置)にいる場合は走る
-            // そうでなければ水中にいると見なして泳ぐ
-            if (playerPosY >= 0)
+            if(num >= 3)
             {
-                Console.WriteLine("走る!");
+                // numの値が3以上なら「勝ち」と表示
+                Console.WriteLine("勝ち");
             }
             else
             {
-                Console.WriteLine("泳ぐ!");
+                // numの値が2以下なら「負け」と表示
+                Console.WriteLine("負け");
             }
         }
     }
