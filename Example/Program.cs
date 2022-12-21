@@ -6,13 +6,12 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int playerPosX = 10; // プレイヤの位置は「X=5」
-            int enemyPosX = 10; // 敵の位置は「X=10」
+            int num = 5;
 
-            // プレイヤと敵の位置が等しい場合は敵と遭遇
-            if (playerPosX == enemyPosX)
+            // num変数の値が3以上なら「勝ち」と表示
+            if (num >= 3)
             {
-                Console.WriteLine("敵と遭遇");
+                Console.WriteLine("勝ち");
             }
         }
     }
