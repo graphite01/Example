@@ -6,12 +6,16 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int num = 5;
+            int player1PosX = 2; // プレイヤ1の位置
+            int player2PosX = 6; // プレイヤ2の位置
 
-            // num変数の値が3以上なら「勝ち」と表示
-            if (num >= 3)
+            // プレイヤ1の位置が「2」かつプレイヤ2の位置が「6」の場合に仕掛けを解除
+            if (player1PosX == 2)
             {
-                Console.WriteLine("勝ち");
+                if (player2PosX == 6)
+                {
+                    Console.WriteLine("仕掛け解除");
+                }
             }
         }
     }
