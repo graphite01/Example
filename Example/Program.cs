@@ -6,28 +6,11 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int hp = 100;
-            int mapType = 3;
-
-            // 地形の種類によってHPの値を増減する
-            if (mapType == 1) //回復地形の場合
+            // 攻撃を5回繰り返す
+            for (int i = 0; i < 5; i++)
             {
-                hp += 10;
+                Console.WriteLine("攻撃");
             }
-            else if (mapType == 2) //毒地形の場合
-            {
-                hp -= 5;
-            }
-            else if (mapType == 3) //罠の場合
-            {
-                hp = 0;
-            }
-            else //上記以外は全て通常の地形
-            {
-                Console.WriteLine("HPの変化なし");
-            }
-
-            Console.WriteLine("HP=" + hp);
         }
     }
 }
