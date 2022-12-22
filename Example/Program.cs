@@ -6,11 +6,17 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            // 「10」から「0」までカウントダウンする
-            for (int i = 10; i >=0; i--)
+            int playerPosX = 5;
+            int missilePosX = 15;
+
+            // プレイヤの位置とミサイルの位置が等しくなければ
+            // ミサイルの移動を繰り返す
+            while (playerPosX != missilePosX)
             {
-                Console.WriteLine(i);
+                Console.WriteLine("missile at " + missilePosX);
+                missilePosX--; // ミサイルを左に動かす
             }
+            Console.WriteLine("HIT");
         }
     }
 }
