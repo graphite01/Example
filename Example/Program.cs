@@ -6,22 +6,27 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int playerPosX = 5;
-            int missilePosX = 15;
+            int sum = 0; // 合計値を保持する変数
+            int num = 1;
 
-            // 常にループする
             while (true)
             {
-                // プレイヤとミサイルが衝突したらwhile文を抜ける
-                if (playerPosX == missilePosX)
+                // 合計値にnumの値を加算する
+                sum += num;
+
+                // 現在の合計値を表示
+                Console.WriteLine(sum);
+
+                // 合計値が500を超えたらwhile文を抜ける
+                if (sum >= 500)
                 {
                     break;
                 }
 
-                Console.WriteLine("missile at " + missilePosX);
-                missilePosX--;
+                // numの値を1増やす
+                num++;
             }
-            Console.WriteLine("HIT");
+            Console.WriteLine("計算終了");
         }
     }
 }
