@@ -6,10 +6,10 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            // 攻撃を5回繰り返す
-            for (int i = 0; i < 3; i++)
+            // 参加者を点呼する
+            for (int i = 1; i < 4; i++)
             {
-                Console.WriteLine("逃走");
+                Console.WriteLine(i + "番!");
             }
         }
     }
