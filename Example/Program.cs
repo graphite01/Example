@@ -7,9 +7,9 @@ namespace Example
         static void Main(string[] args)
         {
             // 攻撃を5回繰り返す
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine("攻撃");
+                Console.WriteLine("逃走");
             }
         }
     }
