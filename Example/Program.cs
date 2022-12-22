@@ -6,18 +6,22 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            int num = 10000;
-            int count = 0; // 割った回数を保持
+            int playerPosX = 5;
+            int missilePosX = 15;
 
-            // while文で「10000」が「100以下」になるまで「2」で割る
-            while (num > 100)
+            // 常にループする
+            while (true)
             {
-                num /= 2;
-                count++;
-            }
+                // プレイヤとミサイルが衝突したらwhile文を抜ける
+                if (playerPosX == missilePosX)
+                {
+                    break;
+                }
 
-            // 割った回数を表示
-            Console.WriteLine(count);
+                Console.WriteLine("missile at " + missilePosX);
+                missilePosX--;
+            }
+            Console.WriteLine("HIT");
         }
     }
 }
