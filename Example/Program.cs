@@ -7,7 +7,7 @@ namespace Example
         static void Main(string[] args)
         {
             // 参加者を点呼する
-            for (int i = 2; i < 6; i++)
+            for (int i = 0; i < 5; i+=2)
             {
                 Console.WriteLine(i);
             }
