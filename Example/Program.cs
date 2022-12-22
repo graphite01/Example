@@ -7,9 +7,9 @@ namespace Example
         static void Main(string[] args)
         {
             // 参加者を点呼する
-            for (int i = 1; i < 4; i++)
+            for (int i = 2; i < 6; i++)
             {
-                Console.WriteLine(i + "番!");
+                Console.WriteLine(i);
             }
         }
     }
