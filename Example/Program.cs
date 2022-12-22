@@ -6,12 +6,11 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            // 「3」から「1」までカウントダウンする
-            for (int i = 3; i >0; i--)
+            // 「10」から「0」までカウントダウンする
+            for (int i = 10; i >=0; i--)
             {
                 Console.WriteLine(i);
             }
-            Console.WriteLine("スタート");
         }
     }
 }
