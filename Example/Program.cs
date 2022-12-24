@@ -27,7 +27,7 @@ namespace Example
         static void Main(string[] args)
         {
             // 「薬草」を引数に渡してShopメソッドを呼び出す
-            Shop("棍棒");
+            Shop("");
         }
     }
 }
