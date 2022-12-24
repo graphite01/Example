@@ -4,16 +4,16 @@ namespace Example
 {
     class Program
     {
-        // 「いらっしゃいませ!」と表示するメソッドを定義
-        static void Shop()
+        // 「ありがとうございました!」と表示するメソッドを定義
+        static void Thankyou()
         {
-            Console.WriteLine("いらっしゃいませ!");
+            Console.WriteLine("ありがとうございました!");
         }
 
         static void Main(string[] args)
         {
-            // Shopメソッドを呼び出す
-            Shop();
+            // Thankyouメソッドを呼び出す
+            Thankyou();
         }
     }
 }
