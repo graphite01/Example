@@ -4,23 +4,22 @@ namespace Example
 {
     class Program
     {
-        // 引数の値が偶数か奇数化を表示するメソッド
-        static void ShowEve0r0dd (int num)
+        // int型の引数を3つ受け取り、
+        // その平均値をfloat型で返すメソッド
+        static float CalcAverage (int a, int b, int c)
         {
-            if ((num % 2) == 0)
-            {
-                Console.WriteLine("偶数です");
-            }
-            else
-            {
-                Console.WriteLine("奇数です");
-            }
+            float average;
+            average = (a + b + c) / 3.0f;
+
+            // float型で平均値を返す
+            return average;
         }
 
         static void Main(string[] args)
         {
-            // ShowEve0r0ddメソッドを呼び出す
-            ShowEve0r0dd(3);
+            // CalcAverageメソッドを呼び出して戻り値を表示
+            float answer = CalcAverage(1, 5, 10);
+            Console.WriteLine(answer);
         }
     }
 }
